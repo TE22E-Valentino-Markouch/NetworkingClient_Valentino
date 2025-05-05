@@ -7,7 +7,7 @@ public class Main {
         Socket client = null;
 
         // Default port number we are going to use
-        int portnumber = 1234;
+        int portnumber = 1029;
         if (args.length >= 1){
             portnumber = Integer.parseInt(args[0]);
         }
